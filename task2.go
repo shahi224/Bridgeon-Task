@@ -17,16 +17,16 @@ func main(){
 
 	switch operator {
 		case "+" :
-			fmt.Printf("Result : % . 2f /n",num1 + num2)
+			fmt.Printf("Result :  %.2f \n",num1 + num2)
 		case "-" :
-			fmt.Printf("Result : % . 2f /n",num1 - num2)
+			fmt.Printf("Result : %.2f \n",num1 - num2)
 		case "*" :
-			fmt.Printf("Result : % . 2f /n",num1 * num2)
+			fmt.Printf("Result :  %.2f \n",num1 * num2)
 		case "/" :
 			if num2 == 0{
 				fmt.Println("Error division by 0 is not allowed")
 			}else{
-				fmt.Printf("Result : % . 2f /n",num1 / num2)					 
+				fmt.Printf("Result : % . 2f \n",num1 / num2)					 
 
 			}
 	}
